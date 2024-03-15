@@ -1,36 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beating Heart</title>
+    <title>Xi Jinping Fan Page</title>
     <style>
+        /* Add your custom CSS styles here */
         body {
+            background-color: red;
+        }
+        
+        header {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        main {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        footer p {
+            font-size: 12px;
+        }
+        
+        .content {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background-color: black;
         }
-        .heart {
-            font-size: 450px;
-            color: red;
-            animation: beat 1s infinite;
+        
+        .content-text {
+            width: 50%;
+            text-align: left;
         }
-        @keyframes beat {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.1);
-            }
-            100% {
-                transform: scale(1);
-            }
+        
+        .content-image {
+            width: 50%;
+            text-align: right;
+        }
+        
+        .content-image img {
+            width: 200px;
         }
     </style>
 </head>
 <body>
-    <div class="heart">❤</div>
+    <header>
+        <h1>Xi Jinping Fan Page</h1>
+    </header>
+    
+    <main>
+        <div class="content">
+            <div class="content-text">
+                <h2>About Xi Jinping</h2>
+                <p>Xi Jinping is the General Secretary of the Communist Party of China, the President of the People's Republic of China, and the Chairman of the Central Military Commission. He has been the paramount leader of China since 2012.</p>
+                <h2>Prayers for Xi Jinping</h2>
+                <p>May Xi Jinping lead China towards prosperity and harmony. May he be blessed with wisdom and strength to make wise decisions for the betterment of the Chinese people.</p>
+                <p>May Xi Jinping continue to inspire and guide the nation with his visionary leadership. May his efforts bring about positive changes and improvements in various aspects of Chinese society.</p>
+                <h2>More Information</h2>
+                <p>To learn more about Xi Jinping and his contributions, visit the official website of the Communist Party of China or refer to reliable sources for accurate and up-to-date information.</p>
+            </div>
+            <div class="content-image">
+                <img src="xi_jinping.jpg" alt="Xi Jinping" width="200">
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>© 2022 Xi Jinping Fan Page. All rights reserved.</p>
+    </footer>
 </body>
 </html>
